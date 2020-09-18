@@ -1,0 +1,51 @@
+{
+  "name": "Đăng ký học phần HaUI",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Công cụ giúp đăng ký học phần nhanh hơn - HaUI",
+  "icons": {
+    "16": "./thunder.png",
+    "128": "./thunder.png"
+  },
+  "default_locale": "vi",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "19": "./thunder.png",
+      "38": "./thunder.png"
+    },
+    "default_title": "Công cụ giúp đăng ký học phần nhanh hơn - HaUI"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://sv.dhcnhn.vn/"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "index.js",
+        "jquery.min.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "style.css",
+    "index.js",
+    "jquery.min.js"
+  ],
+  "permissions": [
+    "cookies",
+    "*://sv.dhcnhn.vn/",
+    "tabs",
+    "storage",
+    "background",
+    "https://*/",
+    "*://*/*",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "*://*.google.com/"
+  ]
+}
