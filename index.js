@@ -123,7 +123,7 @@ let createBox = () => {
                             <input id="reset" class="btn btn-secondary" type="reset" value="Reset">
                           </form>
                         </div>
-                        <div id="copy_right"><span>© 2020</span><a href="https://chinhportfolio.web.app" target="_blank">Phạm Đình Chỉnh</a></div>
+                        <div id="copy_right"><span>© 2020</span><a href="https://www.facebook.com/pdc0102" target="_blank">Phạm Đình Chỉnh</a></div>
                     </div>
                     `;
 
