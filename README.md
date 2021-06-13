@@ -1,2 +1,2 @@
-### Extension giúp đăng ký học phần nhanh hơn - HaUI
-## Đã dừng hoạt động, kỳ sau sẽ hoạt động trở lại.
+## How to use?
+### [Click here](https://www.youtube.com/watch?v=AmXWZxpP6xc)
